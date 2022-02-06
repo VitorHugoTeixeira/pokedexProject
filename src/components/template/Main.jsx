@@ -1,7 +1,7 @@
 import React from "react";
 import '../../styles/Main.css'
 
-import Search from './form/Search'
+import Search from '../form/Search'
 
 
 const mainComponent = props =>

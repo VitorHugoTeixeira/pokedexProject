@@ -1,7 +1,10 @@
 import React from "react";
+import Logo from './Logo'
 import '../../styles/Header.css'
 
 const headerComponent = props => 
-    <h2>Header</h2>
+    <header className="header">
+        <Logo></Logo>
+    </header>
 
 export default headerComponent
