@@ -1,5 +1,11 @@
+div.form-template{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
 input.texSearch{
-    width: 326px;
+    width: 270px;
     height: 40px;
     font-weight: bold;
     padding: 10px;
@@ -11,3 +17,41 @@ input.texSearch:focus{
     outline: 0;
 }
 
+.btn-search{
+    background-color: red;
+    width: 120px;
+    color: #fff;
+    height: 40px;
+    font-size: 0.9em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btn-search img{
+    width: 25px;
+}
+
+
+@media(max-width: 500px){
+    input.texSearch{
+        width: 200px;
+    }
+    
+    .btn-search{
+        background-color: red;
+        width: 70px;
+        font-size: .7em;
+    }
+
+    div.form-template{
+        width: 280px;
+    }
+
+    .btn-search img{
+        width: 10px;
+    }
+
+}

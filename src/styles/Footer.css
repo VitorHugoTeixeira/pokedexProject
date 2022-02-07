@@ -2,7 +2,7 @@ footer.footer{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px; 
+    padding: 20px;
 }
 
 footer.footer h3{
@@ -10,4 +10,10 @@ footer.footer h3{
     font-size: 1em;
     font-weight: bold;
     padding-right: 5px;
+}
+
+@media(max-width: 500px){
+    footer.footer h3{
+        font-size: .7em;
+    }
 }
