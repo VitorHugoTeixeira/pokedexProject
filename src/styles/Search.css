@@ -1,0 +1,13 @@
+input.texSearch{
+    width: 326px;
+    height: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input.texSearch:focus{
+    border: none;
+    box-shadow: none;
+    outline: 0;
+}
+

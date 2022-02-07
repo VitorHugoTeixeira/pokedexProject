@@ -1,0 +1,13 @@
+footer.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px; 
+}
+
+footer.footer h3{
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    padding-right: 5px;
+}

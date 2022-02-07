@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import './styles/App.css'
 
 
@@ -7,10 +7,10 @@ import Header from './components/template/Header'
 import Footer from './components/template/Footer'
 
 const appComponent = props =>
-    <Fragment>
+    <div className="app">
         <Header></Header>
         <Main></Main>
         <Footer></Footer>
-    </Fragment>
+    </div>
 
 export default appComponent

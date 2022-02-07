@@ -2,6 +2,6 @@ import React from "react";
 import '../../styles/Search.css'
 
 const searchComponent = props => 
-    <h2>Search</h2>
+    <input type="text" className="texSearch" placeholder="Search pokemon..."/>
 
 export default searchComponent
